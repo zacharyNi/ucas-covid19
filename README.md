@@ -34,6 +34,7 @@
 具体修改：
 ```bash
 $ crontab -e # 进入crontab的文本模式
+
 30 8 * * * /usr/bin/python3  /root/ucas-covid19/sub.py >>/tmp/yqfk.log # 在文本最后一行添加,注意修改为实际路径，大约2分钟后生效，重启服务直接生效。请注意这里使用是python3不是python2
 ```
 
